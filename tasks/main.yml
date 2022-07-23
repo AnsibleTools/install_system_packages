@@ -1,0 +1,9 @@
+---
+- name: Apt cache update
+  apt:
+    update_cache: yes
+
+- name: Install + update system packages
+  apt:
+    name: "{{ system_packages }}"
+    state: latest

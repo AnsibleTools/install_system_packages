@@ -1,0 +1,12 @@
+---
+
+system_packages:
+  - mc
+  - wget
+  - curl
+  - rsync
+  - zip
+  - jq
+  - bash-completion
+  - htop
+  - tcpdump
